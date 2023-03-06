@@ -1,10 +1,19 @@
+import SearchBar from "./components/SearchBar";
+import ImageList from "./components/ImageList";
+import searchImages from "./api";
 
 function App() {
-  return <div>App</div>; 
+  const handleSubmit = (term) => {
+    const result = searchImages(term);
+    console.log(result);
+  };
+
+  return (
+    <div>
+      <SearchBar onSubmit={handleSubmit} />
+    </div>
+  );
 }
 
 export default App;
 
-
-
-//https://api.unsplash.com/ vBDfLG26ijbXWgccEA6aYzhJmqhG17Q17EIQFVu5xG0
