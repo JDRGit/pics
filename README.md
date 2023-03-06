@@ -18,7 +18,7 @@ JavaScript
 Third-party API
 
 ## How to Run
-To run this application, simply open the index.html file in a web browser.
+https://jaimeimagesearchapp.netlify.app
 
 ## Possible Future Improvements
 Add pagination to display more images
